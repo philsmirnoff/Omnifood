@@ -87,6 +87,7 @@ $(document).ready(function() {
       });
     
     /* Mobile nav */
+   
     $('.js--nav-icon').click(function() {
         var nav = $('.js--main-nav');
         var icon = $('.js--nav-icon i');
@@ -102,7 +103,5 @@ $(document).ready(function() {
             icon.removeClass('ion-close-round');
         }
     });
-
-
 
 });
